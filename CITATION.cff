@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article in `preferred-citation`."
+title: "HemiplexFactorizations.jl"
+abstract: "Cholesky factorization over the hemiplex numbers, valid for arbitrary symmetric matrices including indefinite and singular ones."
+type: software
+authors:
+  - given-names: "Timothy E."
+    family-names: Holy
+    email: tim.holy@gmail.com
+    affiliation: "Washington University in St. Louis"
+    orcid: "https://orcid.org/0000-0002-2429-1071"
+version: 1.0.0
+date-released: "2026-07-07"
+license: MIT
+repository-code: "https://github.com/timholy/HemiplexFactorizations.jl"
+keywords:
+  - Julia
+  - hemiplex numbers
+  - Cholesky factorization
+  - indefinite matrices
+  - numerical linear algebra
+preferred-citation:
+  type: article
+  title: "Jordan algebras, hemiplex numbers, and the Cholesky decomposition of arbitrary symmetric matrices"
+  authors:
+    - given-names: Alan
+      family-names: Edelman
+      affiliation: "Massachusetts Institute of Technology"
+    - given-names: "Timothy E."
+      family-names: Holy
+      affiliation: "Washington University in St. Louis"
+      orcid: "https://orcid.org/0000-0002-2429-1071"
+  year: 2026
+  month: 7
+  journal: "arXiv"
+  identifiers:
+    - type: other
+      value: "arXiv:2607.21383"
+      description: "arXiv preprint identifier"
+  doi: "10.48550/arXiv.2607.21383"
+  url: "https://arxiv.org/abs/2607.21383"
