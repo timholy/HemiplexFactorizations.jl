@@ -20,7 +20,9 @@ After creating a symmetric matrix `A`, compute its Cholesky
 factorization over the hemiplex numbers like this:
 
 ```jl
-F = cholfact(PureHemi, A)
+using HemiplexFactorizations: cholesky
+using HemiplexNumbers: PureHemi
+F = cholesky(PureHemi, A)
 ```
 Then you can use `F` to solve equations, e.g.,
 ```jl
@@ -38,7 +40,7 @@ into matrix form with `convert(Matrix, F)`.
 ## Options
 
 ```jl
-F = cholfact(PureHemi, A, δ; blocksize=default)
+F = cholesky(PureHemi, A, δ; blocksize=default)
 ```
 where:
 
